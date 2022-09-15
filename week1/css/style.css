@@ -1,0 +1,16 @@
+body{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+body p{
+    text-align: left;
+    font-size: large;
+}
+h1, h3{
+    text-align: center;
+}
+
+.headline{
+    background-color: aqua;
+}
