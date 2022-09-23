@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-</head>
-<body>
-    <h1>week 2 Notes</h1>
-</body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <script src="../js/currentTime.js"></script>
+    </head>
+
+    <body>
+        <h1>week 2 Notes</h1>
+        <h2>Programming Basics</h2>
+        <p><strong>Commenting Codes:</strong> It's a good habit to comment on your code for others to read and
+            understand. Using // to comment a line and /* for more than 1 line. </p>
+        <p>A <strong>Block</strong> of code is a series of statements that are collected together inside curly braces.
+        </p>
+        <p><strong>Primitive Data Types:</strong> There are six data types that are primitive and are:
+        <ul>
+            <li>String</li>
+            <li>Symbol</li>
+            <li>Number</li>
+            <li>Boolean</li>
+            <li>Undefined</li>
+            <li>Null</li>
+        </ul>
+        </p>
+        <p><strong>Template Literals: </strong>They allow interpolation, this means that JS expression can be inserted
+            insie a string, eg `Hello ${name}!`;</p>
+        <h2>Arrays, Logic, and Loops</h2>
+        <p><strong>Arrays </strong> are an ordered list of values, e.g., const myArray = ['one', 2, 'five']</p>
+        <p><strong>Destructuring Arrays:</strong> It is the concept of taking values out of an array and presenting them
+            as individual values. e.g., const [x, y] = [1, 2]; where x = 1 and y = 2.</p>
+        <ul>
+            <strong>Array Methods</strong>
+            <li>To find the array length >> myArray.length;</li>
+            <li>To remove the last item >> myArray.pop();</li>
+            <li>To remove the first item >> myArray.shift();</li>
+            <li>To add a new item to the end of the array >> myArray.push('item');</li>
+            <li>To add a new item to the beginning of the array >> myArray.unshift('item');</li>
+        </ul>
+        <p>Arrays can be merged with the use of the "concat()" method and with the use of the "join()" method, arrays
+            can be turned into strings.</p>
+        <h2>Functions</h2>
+        <p>A function is a chunk of code that can be referenced by a name, and is almost like
+            a small, self-contained mini program. Functions can help reduce repetition and
+            make code easier to follow.</p>
+        <p><strong>Parameters and Arguments</strong>s are terms that are often used interchangeably to
+            represent values provided for the function as an input. eg.function square(x){
+            return x*x;
+            }</p>
+
+            <Footer>
+                <div class="name">
+                    <p> &copy; <span id="year"></span> - Isaac Asiedu - WDD-330 - BYUI </p>
+                </div>
+                <div class="datetime">
+                    <p>Last Updated: <span id="currentdate"></span></p>
+                </div>
+            </Footer>
+    </body>
 </html>
