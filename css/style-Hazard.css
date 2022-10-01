@@ -1,0 +1,25 @@
+body{
+    margin: 0 auto;
+    max-width: 960px;
+}
+h1{
+    margin-bottom: 0;
+    padding: 20px;
+}
+.headline{
+    background-color: aqua;
+    text-align: center;
+    margin-bottom: 0;
+    border-radius: 5px;
+}
+
+#linkList{
+    height: 500px;
+    border: 1px solid rgba(17, 16, 16, 0.568);
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+footer{
+    background-color: rgba(177, 245, 245, 0.568);
+    text-align: center;
+}

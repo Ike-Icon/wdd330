@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Source+Serif+Pro:ital,wght@1,600&display=swap");
+
+/* html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+} */
+
+h1, h2, h3{
+    font-family: "Source Serif Pro", serif;
+    margin-bottom: 0px;
+}
+p, li{
+    font-family: "Roboto Slab", serif;
+    margin: 10px;
+}
+
+body {
+    max-width: 960px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.headline{
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+footer{
+    background-color: rgba(0, 255, 255, 0.262);
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
