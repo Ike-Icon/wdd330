@@ -18,7 +18,11 @@ h1{
     border: 1px solid rgba(17, 16, 16, 0.568);
     margin-top: 0;
     font-size: 1.2rem;
+    display: grid;
+   
 }
+
+
 footer{
     background-color: rgba(177, 245, 245, 0.568);
     text-align: center;
