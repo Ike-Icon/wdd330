@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <meta name="description" content="Assignment: My Notes" />
+  <script src="../js/currentTime.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="note">
+    <div class="headline">
+      <h1>week 5 Notes</h1>
+    </div>
+    <h1>Testing and Debugging</h1>
+    <h2>Errors, Exceptions, and Warnings</h2>
+    <p>They are usually
+      caused by one of the following:
+      <br>System error ― there’s a problem with the system or external devices with
+      which the program is interacting.
+      <br>Programmer error ― the program contains incorrect syntax or faulty logic; it
+      could even be as simple as a typo.</br>
+      User error ― the user has entered data incorrectly, which the program is unable to handle.
+    </p>
+    <h2>Exceptions
+    </h2>
+    <p>An exception is an error that produces a return value that can then be used by the
+      program to deal with the error.
+    </p>
+    <h2>Stack Traces</h2>
+    <p>An exception will also produce a stack trace. This is a sequence of functions or
+      method calls that lead to the point where the error occurred. It’s often not just a
+      single function or method call that causes an error. A stack trace will work
+      backwards from the point at which the error occurred to identify the original
+      function or method that started the sequence.
+    </p>
+    <h2>Strict Mode</h2>
+    <p>ECMAScript 5 introduced a strict mode that produces more exceptions and
+      warnings and prohibits the use of some deprecated features.
+      <br>Strict mode simply requires the following string to be added to the first line of a
+      JavaScript file:
+      <br><strong>'use strict';</strong>
+    </p>
+    <h2>Exception Handling</h2>
+    <p>When an exception occurs, the program terminates with an error message. This is
+      ideal in development as it allows us to identify and fix errors. In production,
+      however, it will appear as if the program has crashed, which does not reflect well
+      on a programmer.</p>
+    <footer>
+      <div class="name">
+        <p>&copy; <span id="year"></span> - Isaac Asiedu - WDD-330 - BYUI</p>
+      </div>
+      <div class="datetime">
+        <p>Last Updated: <span id="currentdate"></span></p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
