@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To Do List App</title>
+</head>
+<body>
+    <h1 class="headline">
+        To Do List App
+    </h1>
+
+    <div class="todo-list">
+        
+
+        <div class="tasks">
+          
+        </div>
+        <div class="list-head">
+            <input type="text" class="input-list">
+            <button class="add-list">✖️</button>
+        </div>
+
+
+        <div class="filters">
+            <button 
+            class="btn filters__btn filters__btn--all" 
+            v-on:click="filterTodos('all')">
+            All
+            </button>
+
+            <button 
+            class="btn filters__btn filters__btn--complete" 
+            v-on:click="filterTodos('complete')">
+            Complete
+            </button>
+
+            <button 
+            class="btn filters__btn filters__btn--incomplete" 
+            v-on:click="filterTodos('incomplete')">
+            Incomplete
+            </button>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/4c7150f874.js" crossorigin="anonymous"></script>
+</body>
+</html>
