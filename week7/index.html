@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <meta name="description" content="Assignment: My Notes" />
+    <script src="../js/currentTime.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="note">
+      <div class="headline">
+        <h1>week 7 Notes</h1>
+      </div>
+      <h2>Further Functions</h2>
+      <p>
+        Since functions are first-class objects, they are able to have their own
+        attributes and methods. For instance, the length attribute of all
+        functions returns how many parameters the function has. <br />In
+        JavaScript, you can add properties to any object, therefore there is
+        nothing stopping you from doing the same with functions.
+      </p>
+      <h3>Immediately Invoked Function Expressions</h3>
+      <p>
+        An Immediately Invoked Function Expression - or IIFE (pronounced “iffy”)
+        – is an anonymous function that, as the name suggests, is invoked as
+        soon as it' s defined. This is easily achieved by placing parentheses at
+        the end of the function definition (remember we use parentheses to
+        invoke a function). The function also has to be made into an expression,
+        which is done by placing the whole declaration inside parentheses.
+        example:
+      </p>
+      <p>
+        (function(){
+        <br />
+        const temp = 'World'; <br />
+        console.log(`Hello ${temp}`); <br />
+        })();
+      </p>
+      <h2>Clients and Servers</h2>
+      <p>
+        JavaScript was originally designed as a client-side scripting language,
+        meaning that it ran locally in the browser, adding dynamic features to
+        the web page that was returned from the server. Ajax allows JavaScript
+        to request resources from a server on behalf of the client. The
+        resources requested are usually JSON data or small fragments of text or
+        HTML rather than a whole web page.
+      </p>
+      <p>
+        The Fetch API is, at the time of writing, what is known as a “living
+        standard”, which means that the specification is being developed in the
+        wild . This means that, despite it being available to use, it’s still
+        subject to change as developers, browser vendors and end-users provide
+        feedback about how it works. It’s an experimental technology, and new
+        features might get added, or the syntax and behavior of some properties
+        and methods might change in the future.
+      </p>
+
+      <footer>
+        <div class="name">
+          <p>&copy; <span id="year"></span> - Isaac Asiedu - WDD-330 - BYUI</p>
+        </div>
+        <div class="datetime">
+          <p>Last Updated: <span id="currentdate"></span></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
