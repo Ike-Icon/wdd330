@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <meta name="description" content="Assignment: My Notes" />
+    <script src="../js/currentTime.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="note">
+      <div class="headline">
+        <h1>week 9 Notes</h1>
+      </div>
+      <h2>The Window Object</h2>
+      <p>
+        In a browser environment the global object is the window object, which
+        represents the browser window that contains a web page.The Browser
+        Object Model (or BOM for short) is a collection of properties and
+        methods that contain information about the browser and computer screen.
+      </p>
+      <p>
+        <strong> Remember that JavaScript can be run in different environments. The BOM
+        only makes sense in a browser environment. This means that other
+        environments (such as Node.js) probably won't have a window object,
+        although they will still have a global object; for example, Node.js has
+        an object called global. If you don't know the name of the global
+        object, you can also refer to it using the keyword this in the global
+        scope.</strong>
+      </p>
+      <footer>
+        <div class="name">
+          <p>&copy; <span id="year"></span> - Isaac Asiedu - WDD-330 - BYUI</p>
+        </div>
+        <div class="datetime">
+          <p>Last Updated: <span id="currentdate"></span></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
