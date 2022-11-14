@@ -23,14 +23,51 @@
         methods that contain information about the browser and computer screen.
       </p>
       <p>
-        <strong> Remember that JavaScript can be run in different environments. The BOM
-        only makes sense in a browser environment. This means that other
-        environments (such as Node.js) probably won't have a window object,
-        although they will still have a global object; for example, Node.js has
-        an object called global. If you don't know the name of the global
-        object, you can also refer to it using the keyword this in the global
-        scope.</strong>
+        <strong>
+          Remember that JavaScript can be run in different environments. The BOM
+          only makes sense in a browser environment. This means that other
+          environments (such as Node.js) probably won't have a window object,
+          although they will still have a global object; for example, Node.js
+          has an object called global. If you don't know the name of the global
+          object, you can also refer to it using the keyword this in the global
+          scope.</strong
+        >
       </p>
+      <p>
+        Global variables are actual properties of a global object. In a browser
+        environment, the global object is the window object. This means that any
+        global variable created is actually a property of the window object.
+      </p>
+      <h3>Controlling Windows</h3>
+      <p>
+        A new window can be opened using the window.open() method. This takes
+        the URL of the page to be opened as its first parameter, the window
+        title as its second parameter, and a list of attributes as the third
+        parameter. <br />The close() method can be used to close a window,
+        assuming you have a reference to it: <br /><strong>
+          popup.close();</strong
+        >
+      </p>
+      <h2>HTML5 APIs</h2>
+      <h3>The data- Attribute</h3>
+      <p>
+        The data- attribute is a way of embedding data in a web page using
+        custom attributes that are ignored by the browser. They’re also private
+        to a page, so are not intended to be used by an external service – their
+        sole purpose is to be used by a JavaScript program. This means they’re
+        perfect for adding data that can be used as a hook that the program
+        utilizes to access information about a particular element on the page.
+      </p>
+      <ul>
+        The names of these attributes can be decided by the developer, but they
+        must use the following format:
+        <li>Start with data-.</li>
+        <li>
+          Contain only lowercase letters, numbers, hyphens, dots, colons or
+          underscores.
+        </li>
+        <li>Include an optional string value.</li>
+      </ul>
       <footer>
         <div class="name">
           <p>&copy; <span id="year"></span> - Isaac Asiedu - WDD-330 - BYUI</p>
