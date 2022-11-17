@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <meta name="description" content="Assignment: My Notes" />
+    <script src="../js/currentTime.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="note">
+      <div class="headline">
+        <h1>week 10 Notes</h1>
+      </div>
+      <h2>Client-side form validation</h2>
+      <p>Client-side validation is an initial check and an important feature of good user experience; by catching invalid data on the client-side, the user can fix it straight away.</p>
+      <p>why do we insist on validating our forms?
+        <ul>
+          <li>We want to get the right data, in the right format.</li>
+          <li>We want to protect our users' data.</li>
+          <li>We want to protect ourselves. There are many ways that malicious users can misuse unprotected forms to damage the application.</li>
+        </ul>
+      </p>
+      <h3>Different types of client-side validation</h3>
+      <p>There are two different types of client-side validation that you'll encounter on the web:
+        <ul>
+          <li>Built-in form validation uses HTML form validation features</li>
+          <li>JavaScript validation is coded using JavaScript.</li>
+        </ul>
+      </p>
+        <h3>Using built-in form validation</h3>
+        <p>
+          Some validation attributes on form elements are:
+          <ul>
+            <li><strong>required:</strong> Specifies whether a form field needs to be filled in before the form can be submitted.</li>
+            <li> <strong>minlength</strong> and <strong>maxlength:</strong>  Specifies the minimum and maximum length of textual data (strings).
+            </li>
+            <li> <strong>min </strong> and <strong>max: </strong> Specifies the minimum and maximum values of numerical input types.</li>
+            <li> <strong>type: </strong>  Specifies whether the data needs to be a number, an email address, or some other specific preset type.</li>
+           <li> <strong>pattern: </strong>  Specifies a regular expression that defines a pattern the entered data needs to follow.</li>
+            
+          </ul>
+        </p>
+      <footer>
+        <div class="name">
+          <p>&copy; <span id="year"></span> - Isaac Asiedu - WDD-330 - BYUI</p>
+        </div>
+        <div class="datetime">
+          <p>Last Updated: <span id="currentdate"></span></p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
