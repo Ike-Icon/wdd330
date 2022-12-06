@@ -40,8 +40,8 @@ const links = [
     url: "week10/index.html",
   },
   {
-    label: "Team Work Activities",
-    url: "team-work",
+    label: "Tic Tac Toe Game",
+    url: "tic-tac-toe-project/tic.html",
   }
 ];
 
