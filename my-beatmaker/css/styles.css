@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Rubik+Gemstones&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body h1{
+    font-family: 'Rubik Gemstones', cursive;
+}
+body p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+
+header h1{
+    margin:50px 0px 8px 0px ;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 10;
+}
+
+header p{
+    font-size: 24px;
+}
+
+.pads{
+    width: 100%;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.521);
+}
+
+.pads > div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.pad1{
+    background-color:#6ed187 ;
+}
+
+.pad2{
+    background-color: #FF5C33;
+}
+
+.pad3{
+    background-color:gold;
+}
+
+.pad4{
+    background-color:aqua;
+}
+
+.pad5{
+    background-color: #21003D;
+    ;
+}
+
+.pad6{
+    background-color:hotpink;
+}
+
+.visual > div {
+    position: absolute;
+    bottom: 0%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transform: scale(1);
+    z-index: -1;
+  }
+  
+  @keyframes jump {
+    0% {
+      bottom: 0%;
+      left: 20%;
+    }
+    50% {
+      bottom: 50%;
+      left: 50%;
+    }
+  
+    100% {
+      bottom: 00%;
+      left: 80%;
+    }
+
+}
