@@ -6,8 +6,9 @@
     box-sizing: border-box;
 }
 
-body h1{
-    font-family: 'Rubik Gemstones', cursive;
+body{
+    
+    background-color: rgba(128, 128, 128, 0.356);
 }
 body p{
     font-family: 'Roboto', sans-serif;
@@ -17,11 +18,12 @@ body p{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
 }
 
 header h1{
+    font-family: 'Rubik Gemstones', cursive;
     margin:50px 0px 8px 0px ;
     text-align: center;
     font-size: 50px;
