@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
   const sounds = document.querySelectorAll(".sound");
   const pads = document.querySelectorAll(".pads div");
   const visuals = document.querySelector(".visual");
-  const colors = ["#6ed187", "#FF5C33", "gold", "aqua", "#21003D", "ghostwhite","wheat","brown"];
+  const colors = ["#3cd863", "#FF5C33", "gold", "aqua", "#21003D", "#D7098F","wheat","brown"];
 
   pads.forEach((pad, index) => {
     pad.addEventListener("click", () => {
@@ -24,7 +24,7 @@ window.addEventListener("load", () => {
     const balls = document.createElement("div");
     visuals.appendChild(balls);
     balls.style.backgroundColor = colors[index];
-    balls.style.animation = `jump 1s ease`;
+    balls.style.animation = `jump 2s ease`;
     balls.addEventListener("animationend", function () {
       visuals.removeChild(this);
     });

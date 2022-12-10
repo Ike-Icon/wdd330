@@ -1,0 +1,26 @@
+@media only screen and (min-width: 576px) {
+
+    header p{
+        font-size: 25px;
+    }
+
+    header h1{
+        font-size: 60px;
+        font-weight: 10;
+    }
+
+    .pads{
+        grid-gap: 5px;
+    }
+
+    .pads > div{
+        height: 200px;
+        border-radius: 5px;
+        box-shadow:  0px 1px 14px;
+    }
+
+    i{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+}
