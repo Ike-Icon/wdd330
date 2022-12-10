@@ -2,16 +2,17 @@
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 15px;
     box-sizing: border-box;
 }
 
 body{
-    
-    background-color: rgba(128, 128, 128, 0.356);
+  background-color: #E3E0DE;
 }
 body p{
     font-family: 'Roboto', sans-serif;
+    color: #000B14;
+    text-align: center;
 }
 
 .app{
@@ -26,8 +27,9 @@ header h1{
     font-family: 'Rubik Gemstones', cursive;
     margin:50px 0px 8px 0px ;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 10;
+    color: #000B14;
 }
 
 header p{
@@ -36,14 +38,17 @@ header p{
 
 .pads{
     width: 100%;
-    display: flex;
-    background-color: rgba(128, 128, 128, 0.521);
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .pads > div{
-    height: 100px;
-    width: 100px;
-    flex: 1;
+    height: 200px;
+    /* width: 50px; */
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px ;
+
 }
 
 .pad1{
@@ -64,11 +69,16 @@ header p{
 
 .pad5{
     background-color: #21003D;
-    ;
+}
+.pad6{
+    background-color:ghostwhite;
 }
 
-.pad6{
-    background-color:hotpink;
+.pad7{
+    background-color:wheat ;
+}
+.pad8{
+    background-color:brown;
 }
 
 .visual > div {
@@ -76,24 +86,24 @@ header p{
     bottom: 0%;
     height: 50px;
     width: 50px;
-    border-radius: 50%;
-    transform: scale(1);
+    border-radius: 10%;
+    transform: scale(.8);
     z-index: -1;
   }
   
   @keyframes jump {
     0% {
-      bottom: 0%;
+      top: 0%;
       left: 20%;
     }
     50% {
-      bottom: 50%;
+      top: 50%;
       left: 50%;
     }
   
     100% {
       bottom: 00%;
-      left: 80%;
+      left: 20%;
     }
 
 }

@@ -42,7 +42,12 @@ const links = [
   {
     label: "Tic Tac Toe Game",
     url: "tic-tac-toe-project/tic.html",
-  }
+  },
+  {
+    label: "Beat Maker",
+    url: "my-beatmaker/index.html",
+  },
+
 ];
 
 function loadIndex() {
